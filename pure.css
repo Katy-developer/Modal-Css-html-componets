@@ -1,0 +1,42 @@
+.container {
+    width: 80%;
+    margin: 5% auto;
+}
+
+* {
+    line-height: 1.23;
+
+}
+
+.product section {
+    margin: 1.5em 0;
+}
+
+.product section h2 {
+    margin: 1em;
+    color: #111;
+    font-weight: bold;
+    font-size: .5em;
+}
+
+.product section p {
+    margin: 0.5em 0;
+    color: #555;
+}
+/*spacing width weight*/
+
+.product .fadeout {
+    position: relative;
+}
+
+.product .fadeout::before {
+    content: "";
+    display: block;
+    
+    
+    background-image:linear-gradient(transparent, white);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    
+}
